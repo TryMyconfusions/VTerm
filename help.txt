@@ -1,0 +1,10 @@
+Here are a list of commands
+    
+    exit: closes the terminal
+    version: checks the terminals version
+    clear: clears the terminal
+    echo: literally just repeats what you say
+    help: gives you a list of commands
+    changelog or updatelog: gives stuff on what changed
+    
+    

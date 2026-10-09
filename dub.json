@@ -1,0 +1,9 @@
+{
+	"authors": [
+		"voided"
+	],
+	"copyright": "Copyright © 2026, voided",
+	"description": "A minimal D application.",
+	"license": "proprietary",
+	"name": "vterm"
+}

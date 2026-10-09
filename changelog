@@ -1,0 +1,4 @@
+- Added a simple saving and loading system
+- made a changelog
+- fixed some bugs!
+- Added a system where if it cant recognize your command it just offloads it to bash!
