@@ -61,6 +61,8 @@ string[] ifverifiedname() {
 
 		string username_prompt = readln().strip(); // strip out the unnecessary stuff such as \n that might make it seem broken.
 		username =  "@" ~ username_prompt.split(" ") ~ ": ";// split the username so it becomes more like ["@ ","username",": "] 
+
+		save_info(username); // save the username since its more convenient than typing exit manually to save
 	} else {
 		string loadedfile = load_file("conf"); // if the file exists just load it
 		username = loadedfile.split("username: "); // split the username thing so its gone.
@@ -79,7 +81,7 @@ void main() {
 	string upd_log = load_file("changelog");
 	string helptxt = load_file("help.txt");
 
-	writeln("vTerm beta 0.2"); 
+	writeln("vTerm alpha 0.2"); 
 	
 	string[] savetest = [decode_array(ifverifiedname())];
 	while (run) { // loop only if the run identifier is true

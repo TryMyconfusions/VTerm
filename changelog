@@ -1,3 +1,10 @@
 - Added a simple saving and loading system
 - made a changelog
 - fixed some bugs!
+- Added Bash feature where it offloaded your command to bash if it doesnt recognize it!
+
+
+
+VTerm beta 0.2
+
+- Removed the bash feature where it offloaded your commmand because its too lazy!
