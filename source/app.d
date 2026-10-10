@@ -151,12 +151,8 @@ void main() {
 
 				
 				if (cmd !="") {
-					try {
-						auto thing = executeShell(cmd); // if it doesnt recognize your command it offloads it to shell
-						writeln(thing[1]);
-					} catch(Exception E) {
+
 					writeln("Unknown Command Please Use 'Help' if you dont know the commands"); // tell the user the command doesnt exist
-					}
 				}
 				break;				
 		}
